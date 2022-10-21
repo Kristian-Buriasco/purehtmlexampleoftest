@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- 
+  Timer for debug page it refreshes every 5 sec
+  
+  <meta http-equiv="refresh" content="5" />
+  -->
+
+  <!--
+  Charset UTF-8 Used to be able to put emojis and not use images where possible 
+  -->
+  <meta charset="UTF-8" />
+  <!-- 
+  ViewPort used to get responsive behavior (meta argument introduced with HTML5)
+  -->
+  <meta name="viewport" content="width=device-width" />
+
+</head>
+
+<body>
+  <map name="image-map">
+    <area alt="Serie A" title="Serie A" href="https://www.legaseriea.it" coords="163,19,195,19,257,166,180,214,102,164"
+      shape="poly">
+  </map>
+  <div align="center">
+    <h1>Campionato Serie A</h1>
+
+    <img src="SerieA.jpg" usemap="#image-map">
+    <div>
+      <span>
+        <a href="#calendar"> Vai a calendario</a>
+      </span>
+      <span>
+        <a href="#info"> Vai a informazioni sulla biglietteria</a>
+      </span>
+      <span>
+        <a href="#video"> Vai a video</a>
+      </span>
+      <span>
+        <a href="https://www.legaseriea.it" target="blank"> Vai al sito della lega</a>
+      </span>
+      <span>
+        <a href="contacts.html"> Area Contatti</a>
+      </span>
+    </div>
+    <div id="calendar">
+      <table border="4">
+        <tr align="center" bgcolor="#00ff00">
+          <th colspan="2">
+            SERIE A-Prima Giornata
+          </th>
+        </tr>
+        <tr align="center">
+          <td> JUVENTUS</td>
+          <td bgcolor="#ffff00"> GENOA</td>
+        </tr>
+        <tr align="center">
+          <td> TORINO</td>
+          <td bgcolor="#ffff00"> ROMA</td>
+        </tr>
+        <tr align="center">
+          <td> PARMA</td>
+          <td bgcolor="#ffff00">INTER</td>
+        </tr>
+        <tr align="center">
+          <td> MILAN</td>
+          <td bgcolor="#ffff00">SPAL</td>
+        </tr>
+        <tr align="center">
+          <td> ATALANTA</td>
+          <td bgcolor="#ffff00">LAZIO</td>
+        </tr>
+        <tr align="center">
+          <td> NAPOLI</td>
+          <td bgcolor="#ffff00">SASSUOLO</td>
+        </tr>
+      </table>
+      <div id="video">
+        <video height="200" width="500" controls>
+          <source src="video.mp4" type="video/mp4">
+          Impossibile mostrare il contenuto: il tuo browser non
+          è aggiornato
+        </video>
+      </div>
+    </div>
+  </div>
+  <div id="info">
+    <p>
+      La biglietteria rimarrà aperta nei seguenti orari
+    <ul>
+      <li>
+        Lunedì
+        <ul>
+          <li>
+            9.30 - 12.30
+          </li>
+          <li>
+            14.00 - 19.30
+          </li>
+        </ul>
+      </li>
+      <li>
+        Martedì
+        <ul>
+          <li>
+            9.30 - 12.30
+          </li>
+          <li>
+            Chiuso
+          </li>
+        </ul>
+      </li>
+      <li>
+        Mercoledì
+        <ul>
+          <li>
+            9.30 - 12.30
+          </li>
+          <li>
+            14.00 - 19.30
+          </li>
+        </ul>
+      </li>
+      <li>
+        Giovedì
+        <ul>
+          <li>
+            9.30 - 12.30
+          </li>
+          <li>
+            Chiuso
+          </li>
+        </ul>
+      </li>
+      <li>
+        Giovedì
+        <ul>
+          <li>
+            9.30 - 12.30
+          </li>
+          <li>
+            14.00 - 19.30
+          </li>
+        </ul>
+      </li>
+      <li>
+        Sabato
+        <ul>
+          <li>
+            Chiuso
+          </li>
+        </ul>
+      </li>
+      <li>
+        Domenica
+        <ul>
+          <li>
+            Chiuso
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+</body>
+
+</html>

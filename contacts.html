@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- 
+  Timer for debug page it refreshes every 5 sec
+  
+  <meta http-equiv="refresh" content="5" />
+  -->
+
+  <!--
+  Charset UTF-8 Used to be able to put emojis and not use images where possible 
+  -->
+  <meta charset="UTF-8" />
+  <!-- 
+  ViewPort used to get responsive behavior (meta argument introduced with HTML5)
+  -->
+  <meta name="viewport" content="width=device-width" />
+
+</head>
+
+<body>
+  <form action="registrazione.html">
+    <div>
+      <label> Nome :</label>
+      <input placeholder="Il tuo Nome" type="text">
+    </div>
+    <div>
+      <label> Cognome :</label>
+      <input placeholder="Il tuo cognome" type="text">
+      <div>
+        <label for="age">AGE: </label>
+        <input type="number" id="age" name="age" value="18" min="18" max="100">
+      </div>
+      <div>
+        <label> Iscriviti a :</label>
+        <br>
+        <label for="subscribe"> Newsletter</label>
+        <input type="checkbox" id="sub1" name="sub1" value="NewsLetter">
+      </div>
+      <div>
+        <label> Settore :</label>
+        <br>
+        <label for="club1"> Juventus</label>
+        <input type="radio" id="club1" name="club1" value="Juve"><br>
+        <label for="club2"> MIlan</label>
+        <input type="radio" id="club2" name="club2" value="Milan"><br>
+        <label for="club3">inter</label>
+        <input type="radio" id="club3" name="club3" value="inter"><br>
+        <label for="club3">Torino</label>
+        <input type="radio" id="club3" name="club3" value="Torino"><br>
+      </div>
+      <div>
+        <label for="Comments">Commenti</label><br>
+        <input type="textarea">
+      </div>
+      <div>
+        <label for="Provincia">Provincia</label>
+        <SELECT name=”Opzioni”>
+          <OPTION> Rosso </OPTION>
+          <OPTION SELECTED> Verde </OPTION>
+        </SELECT>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+  </form>
+
+</html>
